@@ -15,7 +15,7 @@ typedef unsigned char int8;
 typedef unsigned short int int16;
 typedef unsigned int int32;
 typedef unsigned long long int int64;
-typedef unsigned _BitInt(128) int128;
+typedef __uint128_t int128;
 typedef int32 word;
 
 struct packed s_header {
